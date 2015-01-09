@@ -242,7 +242,7 @@ var PanelView = Backbone.View.extend({
         if (e.altKey && e.which == 83) { // Alt + s
             PerfectPixel.toggleOverlayShown();
         }
-        else if (e.altKey && e.which == 67) { // Alt + c
+        else if (e.altKey && e.which == 65) { // Alt + a --was conflicting with Glipper shortcut
             PerfectPixel.toggleOverlayLocked();
         }
         else if (e.altKey && e.which == 72) { // Alt + H
